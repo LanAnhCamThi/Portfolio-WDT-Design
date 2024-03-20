@@ -1,0 +1,254 @@
+html {
+    background-color: #FFFBF6;
+    color: black;
+    overflow-x: hidden;
+    }
+    
+    header {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    
+.navBar {
+        background: #FFFBF6; 
+        width: 100%;
+        height: 100px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        z-index: 1000;
+     }
+     
+    nav{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        padding: 1px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+      height: 100px;
+      width: 100px;
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+
+    nav u li a{
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+
+    nav u li a:hover{
+        color: orange;
+    }
+     
+    .section {
+    display: flex;
+    justify-content: f;
+    align-items: center;
+    padding-top: 250px;
+    padding-left: 50px;
+    }
+    
+    .section .content {
+    width: 70%;
+    padding-right: 00px;
+    }
+    
+    .section .content .title {
+    font-size: 30px;
+    padding-bottom: 10px;
+    }
+    
+    .section .content .name {
+    font-size: 70px;
+    color: #EA9504;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .section .content .intro {
+    opacity: 100%;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    }
+
+    .section .content .hello{
+        font-size: 20px;
+    }
+    
+    .section .content .button {
+    display: flex;
+    width: 100%;
+    padding-bottom: 200px;
+    }
+    
+    .section .content .button-1 {
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    background-color:  #EA9504;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+    
+    .image{
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+    }
+    
+    .image img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%);
+        transition: width 2s, height 4s;
+    }
+
+    .image img:hover{
+        width: 650px;
+        height: 650px;
+    }
+
+    #about{
+        padding: 50px 0;
+        text-align: center;
+        background-color: #FFB38E;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+      }
+      
+      .profile-picture img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      
+      .bio {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #000;
+      }
+
+#skills{
+    background-color: #FFFBF6;
+    font-size: 20px;
+    border-bottom: 2px dashed #EA9504;
+}
+.table-skills h1{
+    font-size: 30px;
+    color: black;
+}
+
+.skills{
+  margin: 10px 0px;
+  border: 1ps solid#ddd;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.skills th{
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.skills th{
+  background-color: #EA9504;
+  color: #fff;
+}
+.skills tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+.skills tr:hover{
+  background-color: #ddd;
+}
+
+#software{
+font-size: 20px;
+border-bottom: 2px dashed #EA9504;
+padding-bottom: 30px;
+padding-top: 10px;
+background-color: #FFB38E;
+}
+
+.progress-bar-with-image {
+  display: flex;
+  align-items: center; 
+}
+
+.progress-bar {
+  flex-grow: 1; 
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-right: 10px; 
+}
+
+.progress {
+  height: 100%;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+img {
+  width: 50px; 
+  height: auto;
+}
+
+#projects{
+    padding: 10px;
+    font-size: 25px;
+    background-color: #FFFBF6;
+    border-bottom: 2px dashed #EA9504;
+}
+.project{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.product {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-3sp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-3sp img {
+  width: 32%;
+  height: auto;
+}
+
